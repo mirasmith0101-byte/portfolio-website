@@ -92,3 +92,27 @@ body {
     background-color: var(--secondary-color);
     color: white;
 }
+
+/* About Me Section */
+.about {
+    padding: 100px 0;
+    background-color: #1a1a1a;
+}
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 60px;
+}
+.about h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #b5b5b5;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #b5b5b5;
+}
