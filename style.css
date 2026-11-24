@@ -173,3 +173,26 @@ body {
     background-color: var(--secondary-color);
     color: white;
 }
+
+/* Skills Section */
+.skills {
+    padding: 100px 0;
+    background-color: #1c1c1c;
+}
+.skill-card {
+    background-color: #292929;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    height: 100%;
+    transition: 0.3s;
+}
+.skill-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px var(--primary-color);
+}
